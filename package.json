@@ -9,7 +9,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev-settings": "pnpm -F settings dev",
-    "dev-freight": "pnpm -F freight dev"
+    "dev-freight": "pnpm -F freight dev",
+    "build": "pnpm build-packages && pnpm build-settings && pnpm build-freight",
+    "build-packages": "pnpm -r -F '@logiware/*' run build",
+    "build-settings": "pnpm --F 'settings' run build",
+    "build-freight": "pnpm -F 'freight' run build"
   },
   "keywords": [],
   "author": "",
