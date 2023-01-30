@@ -1,0 +1,17 @@
+{
+  "name": "vue3-monoreport-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-settings": "pnpm -F settings dev",
+    "dev-freight": "pnpm -F freight dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
