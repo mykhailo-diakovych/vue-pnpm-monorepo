@@ -11,6 +11,14 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "exports": {
+    ".": {
+      "types": "./types/ui.d.ts",
+      "import": "./dist/ui.mjs",
+      "require": "./dist/ui.cjs"
+    },
+    "./*": "./*"
+  },
   "dependencies": {
     "vue": "^3.2.45"
   },
