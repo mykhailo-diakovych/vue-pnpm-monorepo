@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "type": "module",
   "files": ["dist", "src"],
-  "module": "dist/ui.js",
+  "module": "dist/ui.mjs",
+  "main": "dist/ui.cjs",
   "scripts": {
     "dev": "vite build --watch",
     "build": "vite build",
