@@ -23,13 +23,15 @@ export default defineConfig({
         }
       },
     },
+    minify: false,
     rollupOptions: {
       external: ['vue'],
       output: {
         globals: {
           vue: 'Vue',
         },
-      }
+        exports: "named"
+      },
     }
   }
 })

@@ -3,9 +3,10 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "files": ["dist", "src"],
+  "files": ["dist", "src", "types"],
   "module": "dist/index.mjs",
   "main": "dist/index.cjs",
+  "typings": "types/index.d.ts",
   "exports": {
     ".": {
       "types": "./types/index.d.ts",
