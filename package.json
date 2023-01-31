@@ -2,7 +2,6 @@
   "name": "vue3-monoreport-v1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "workspaces": [
     "packages/*"
   ],
